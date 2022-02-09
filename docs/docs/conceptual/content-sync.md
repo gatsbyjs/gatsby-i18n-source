@@ -16,6 +16,10 @@ Content Sync will route users to the correct page even when pressing "Open Previ
 
 ![Screenshot of Gatsbyjs.com Content Sync UI loading state. On the very left vertically centered is a widget with three icons: Gatsby Icon, a Link Icon, and an Information Icon. In the center of the screen a loading indicator says "Polishing your site".](../images/content-sync-loading.png)
 
+Content Sync works with Preview Status Indicator to eagerly redirect editors to the cached page if it's already been previewed. 
+
+👉 [Enable Content Sync and Preview Status Indicator](https://support.gatsbyjs.com/hc/en-us/articles/4417634377107)
+
 If the build for the preview fails or if no page is created that contains the content being previewed, Content Sync UI will display an error message.
 
 ![Screenshot of Gatsbyjs.com Content Sync UI error state. Now the center of the screen says "Oh no! We've run into an error previewing your site". You can click a "View Error Logs" link below that text.](../images/content-sync-error.png)
